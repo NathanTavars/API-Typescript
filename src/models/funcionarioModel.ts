@@ -13,7 +13,7 @@ export function getAllFuncionarios(): Funcionario[]{
 
 export function addFuncionario(funcionario: Funcionario): Funcionario{
     funcionarios.push(funcionario);
-    return funcionario;
+    return funcionario ;
 }
 
 export function getFuncionarioById(id: number): Funcionario | undefined {
