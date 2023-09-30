@@ -39,7 +39,7 @@ export function deleteRoupa(id: number): novaRoupa | undefined {
         const deletedR = roupas.splice(index, 1)[0]
         return deletedR;
     }
-    return undefined;   ;
+    return undefined;   
 
 }
 
