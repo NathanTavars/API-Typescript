@@ -31,7 +31,7 @@ export function updateRoupa (id: number, updatedRoupa: novaRoupa): novaRoupa | u
         roupas[index] = { ...updatedRoupa, roupaId: id};
         return roupas [index];
     }
-    return undefined;
+    return undefined; 
 }
 export function deleteRoupa(id: number): novaRoupa | undefined {
     const index = roupas.findIndex((roup) => roup.roupaId === id);
